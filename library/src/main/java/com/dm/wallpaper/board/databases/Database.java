@@ -39,7 +39,7 @@ import java.util.Locale;
 
 public class Database extends SQLiteOpenHelper {
 
-    private static final String DATABASE_NAME = "wallpaper_board_database";
+    private static final String DATABASE_NAME = "wallpaper_board_database_dbz";
     private static final int DATABASE_VERSION = 2;
 
     private static final String TABLE_WALLPAPERS = "wallpapers";
