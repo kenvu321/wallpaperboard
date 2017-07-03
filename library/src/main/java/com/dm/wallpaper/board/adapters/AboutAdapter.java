@@ -89,15 +89,16 @@ public class AboutAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
             View view = LayoutInflater.from(mContext).inflate(
                     R.layout.fragment_about_item_header, parent, false);
             return new HeaderViewHolder(view);
-        } else if (viewType == TYPE_CONTRIBUTORS) {
-            View view = LayoutInflater.from(mContext).inflate(
-                    R.layout.fragment_about_item_sub, parent, false);
-            return new ContributorsViewHolder(view);
-        } else if (viewType == TYPE_FOOTER) {
-            View view = LayoutInflater.from(mContext).inflate(
-                    R.layout.fragment_about_item_footer, parent, false);
-            return new FooterViewHolder(view);
         }
+//        else if (viewType == TYPE_CONTRIBUTORS) {
+//            View view = LayoutInflater.from(mContext).inflate(
+//                    R.layout.fragment_about_item_sub, parent, false);
+//            return new ContributorsViewHolder(view);
+//        } else if (viewType == TYPE_FOOTER) {
+//            View view = LayoutInflater.from(mContext).inflate(
+//                    R.layout.fragment_about_item_footer, parent, false);
+//            return new FooterViewHolder(view);
+//        }
 
         View view = LayoutInflater.from(mContext).inflate(
                 R.layout.fragment_settings_item_footer, parent, false);
